@@ -31,8 +31,5 @@ urlpatterns = [
     path("users/",include('users.urls'))
 
 ]
-from django.urls import path, include
-urlpatterns = [
-    path("oidc/", include("mozilla_django_oidc.urls")),
-]
+
 #urlpatterns+=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
