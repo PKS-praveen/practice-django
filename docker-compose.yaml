@@ -14,6 +14,7 @@ services:
       - mynet
     depends_on:
       - db
+      - web_nginx
   
   db:
     image: docker.io/library/postgres:15
