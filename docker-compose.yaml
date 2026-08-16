@@ -3,6 +3,7 @@ version : '3.9'
 services:
   web:
     build: ./myproject
+    network_mode: host
     container_name: web
     ports:
       - "9000:9000"
